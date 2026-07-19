@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Earn Money with YTA & Amazon FBA</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#f4f7fb;
+    color:#333;
+}
+
+header{
+    background:linear-gradient(135deg,#2563eb,#7c3aed);
+    color:white;
+    text-align:center;
+    padding:80px 20px;
+}
+
+header h1{
+    font-size:3rem;
+}
+
+header p{
+    margin-top:15px;
+    font-size:1.2rem;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:25px;
+    padding:14px 30px;
+    background:#fff;
+    color:#2563eb;
+    text-decoration:none;
+    border-radius:30px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.btn:hover{
+    transform:scale(1.05);
+}
+
+section{
+    max-width:1100px;
+    margin:auto;
+    padding:60px 20px;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:white;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 10px 20px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.card h2{
+    color:#2563eb;
+    margin-bottom:15px;
+}
+
+.steps{
+    margin-top:20px;
+}
+
+.steps li{
+    margin:10px 0;
+}
+
+footer{
+    background:#1e293b;
+    color:white;
+    text-align:center;
+    padding:30px;
+    margin-top:40px;
+}
+
+.counter{
+    text-align:center;
+    margin-top:40px;
+}
+
+.counter h2{
+    color:#2563eb;
+}
+
+#count{
+    font-size:45px;
+    font-weight:bold;
+    margin-top:10px;
+    color:#7c3aed;
+}
+</style>
+
+</head>
+<body>
+
+<header>
+<h1>Earn Money Online</h1>
+<p>Learn how YouTube Automation and Amazon FBA can become online income streams.</p>
+
+<a href="#learn" class="btn">Start Learning</a>
+</header>
+
+<section id="learn">
+
+<div class="cards">
+
+<div class="card">
+<h2>📺 YouTube Automation (YTA)</h2>
+
+<p>Create YouTube channels without appearing on camera by outsourcing scriptwriting, voiceovers, editing, and thumbnails.</p>
+
+<ul class="steps">
+<li>Choose a niche.</li>
+<li>Create valuable videos.</li>
+<li>Upload consistently.</li>
+<li>Grow subscribers.</li>
+<li>Earn from ads, sponsorships, and affiliates.</li>
+</ul>
+
+</div>
+
+<div class="card">
+
+<h2>📦 Amazon FBA</h2>
+
+<p>Sell physical products while Amazon stores, packs, and ships them to customers.</p>
+
+<ul class="steps">
+<li>Research winning products.</li>
+<li>Find suppliers.</li>
+<li>Ship inventory to Amazon.</li>
+<li>Optimize listings.</li>
+<li>Scale with advertising.</li>
+</ul>
+
+</div>
+
+<div class="card">
+
+<h2>💡 Success Tips</h2>
+
+<ul class="steps">
+<li>Stay consistent.</li>
+<li>Keep learning.</li>
+<li>Track your results.</li>
+<li>Reinvest profits.</li>
+<li>Be patient—these are businesses that take time to build.</li>
+</ul>
+
+</div>
+
+</div>
+
+<div class="counter">
+<h2>Website Visitors</h2>
+<div id="count">0</div>
+</div>
+
+</section>
+
+<footer>
+<p>© 2026 Online Income Guide | Learn about YouTube Automation & Amazon FBA</p>
+</footer>
+
+<script>
+let count = 0;
+
+const counter = document.getElementById("count");
+
+const interval = setInterval(() => {
+    count++;
+    counter.innerText = count;
+
+    if(count >= 500){
+        clearInterval(interval);
+    }
+
+},10);
+</script>
+
+</body>
+  </html>
